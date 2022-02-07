@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0083B0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  width: 70%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.534);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,131,176,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,131,176,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,131,176,0.75);
+}
+.FromData{
+  padding: 30px;
+}
+.FromData input{
+  margin: 5px;
+}
+#table{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#table th{
+  padding: 5px;
+}
+#table td{
+  padding: 6px;
+}
+button{
+  cursor: pointer;
 }
